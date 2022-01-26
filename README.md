@@ -10,5 +10,4 @@ https://vodovskov.gq - мой финальный проект по вебу за
 /res - стили, скрипты, иконка</br>
 /gallery, /15tags, /whackamole, /refrigirator, /timer - страницы проекта</br>
 /node_modules - зависимости</br>
-/сache - кэш</br>
 /dist - файлы сборки</br>
