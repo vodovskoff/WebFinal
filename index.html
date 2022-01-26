@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Чатiк</title>
+    <link rel="stylesheet" href="/res/style.css">
+    <link rel="icon" href="/res/favicon.ico" type="image/x-icon">
+    <style type="text/css">
+    	        .main-content{
+                    width: 75%
+        }
+                .vertical-menu {
+            width: 200px;
+            height: 1500px;
+            overflow-y: auto;
+            font-family: "Adobe Devanagari";
+            margin-left: 40px;
+            padding-top: 97px;
+            background: #eee;          
+        }
+  
+        .vertical-menu a {
+            background-color: #eee;
+            color: black;
+            display: block;
+            padding: 12px;
+            text-decoration: none;
+
+        }
+  
+        .vertical-menu a:hover {
+            background-color: #ccc;
+        }
+  
+        .vertical-menu a.active {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+<body style="    display: -webkit-box; margin: 0">
+	    <div class="vertical-menu">
+        <a href="./15tags/15tags.html">15 тэгов про меня</a>
+        <a href="./index.html" class="active">мэссенджер</a>
+        <a href="./whackamole/whackamole.html">ударь крота</a>
+        <a href="./refrigirator/refrigirator.html">братья пилоты</a>
+        <a href="./timer/timer.html">таймер</a>
+        <a href="./gallery/gallery.html"  >галлерея</a>
+    </div>
+    <div class="main-content">
+	<script src="res/script.js"></script>
+	<div class="form" id="form">
+    <div class="messages" id="messages">
+
+    </div>
+    <input type="text" placeholder="Введите сообщение" class="in" id="in">
+    <input class="button" value="Отправить" onclick="ShowMessage()" type="button">
+</div>
+</div>
+
+
+
+</body>
+</html>

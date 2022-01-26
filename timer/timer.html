@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="timer.css">
+                <style type="text/css">
+                .main-content{
+                    width: 75%
+        }
+            .vertical-menu 
+        {
+            width: 200px;
+            height: 1500px;
+            overflow-y: auto;
+            font-family: "Adobe Devanagari";
+            margin-left: 40px;
+            padding-top: 97px;
+            background: #eee;
+
+        }
+  
+        .vertical-menu a {
+            background-color: #eee;
+            color: black;
+            display: block;
+            padding: 12px;
+            text-decoration: none;
+
+        }
+  
+        .vertical-menu a:hover {
+            background-color: #ccc;
+        }
+  
+        .vertical-menu a.active {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+<body style="    display: -webkit-box; margin: 0;">
+    <div class="vertical-menu">
+        <a href="../15tags/15tags.html">15 тэгов про меня</a>
+        <a href="../index.html" >мэссенджер</a>
+        <a href="../whackamole/whackamole.html">ударь крота</a>
+        <a href="../refrigirator/refrigirator.html">братья пилоты</a>
+        <a href="../timer/timer.html"class="active">таймер</a>
+        <a href="../gallery/gallery.html"  >галлерея</a>
+    </div>
+<div class="main-content">    
+<div class="cont">
+    <div class="wrapper">
+        <div class="wrapper-inner _bg-0">
+            <div class="btn" id="0" onclick="click0()">+
+            </div>
+            <div class="btn" id="1" onclick="click1()">+
+            </div>
+            <div class="btn" id="2" onclick="click2()">+
+            </div>
+            <div class="btn" id="2" onclick="click6()">+
+            </div>
+        </div>
+    </div>
+    <div id="time">00:00:00:000</div>
+    <div class="wrapper">
+        <div class="wrapper-inner _bg-0">
+            <div class="btn" id="3" onclick="click3()">-
+            </div>
+            <div class="btn" id="4" onclick="click4()">-
+            </div>
+            <div class="btn" id="5" onclick="click5()">-
+            </div>
+            <div class="btn" id="5" onclick="click7()">-
+            </div>
+        </div>
+    </div>
+    <input class="button" id="button" value="Пуск" onclick="startTimer()" id="button" type="button">
+</div>
+<script src="timer.js"></script>
+</div>
+</body>
+</html>
